@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/index")
 def index():
 	return render_template("staticPages/index.html",var1='toto')
-@app.route("/about/")
+@app.route("/about")
 def about():
 	return render_template("staticPages/about.html")
 @app.route("/tourdecontrol")
