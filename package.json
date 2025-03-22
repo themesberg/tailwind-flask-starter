@@ -1,8 +1,18 @@
 {
+  "name": "tailwind-flask-starter",
+  "version": "1.0.0",
+  "description": "A free and open-source starter project to help you get started with the core Flowbite Library components and Flask",
+  "license": "MIT",
+  "repository": "https://github.com/themesberg/tailwind-flask-starter",
+  "homepage": "https://flowbite.com/docs/getting-started/flask/",
+  "contributors": [
+    "Zoltán Szőgyényi (https://x.com/zoltanszogyenyi)"
+  ],
   "devDependencies": {
-    "tailwindcss": "^3.1.6"
+    "@tailwindcss/cli": "^4.0.15",
+    "tailwindcss": "^4.0.15"
   },
   "dependencies": {
-    "flowbite": "^2.0.0"
+    "flowbite": "^3.1.2"
   }
 }
